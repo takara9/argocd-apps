@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/takara9/argocd-apps.git
     targetRevision: HEAD
-    path: apps/secret
+    path: apps/webserver
   destination:
     server: https://kubernetes.default.svc
     namespace: sandbox
