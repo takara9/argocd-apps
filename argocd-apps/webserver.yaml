@@ -3,6 +3,9 @@ kind: Application
 metadata:
   name: nginx
   namespace: argocd
+  annotations:
+    notifications.argoproj.io/subscribe.on-sync-succeeded.slack: general
+
 spec:
   project: default
   source:
