@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: argocd
   annotations:
-    notifications.argoproj.io/subscribe.on-sync-succeeded.slack: "argocdsay"
+    notifications.argoproj.io/subscribe.on-sync-succeeded.slack: argocdsay
 
 spec:
   project: default
