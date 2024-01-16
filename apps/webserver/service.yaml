@@ -10,6 +10,6 @@ spec:
     app: my-nginx
   ports:
   - name: my-port
-    protocol: HTTP
+    protocol: TCP
     port: 9200
     targetPort: 9200
