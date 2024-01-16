@@ -30,7 +30,7 @@ spec:
   selector:
     run: my-nginx
   ports:
-  - name: my-service
+  - name: my-port
     protocol: HTTP
     port: 9200
     targetPort: 9200
